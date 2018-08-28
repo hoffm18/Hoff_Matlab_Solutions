@@ -21,7 +21,7 @@
 %%%%%%%%%%%%%%%%%%%%%%% Part 1  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % 1. Set the url of the matlab documentation to a variable called helpURL
-url='https://www.mathworks.com';web('https://www.mathworks.com/help/')
+url='https://www.mathworks.com';web(https://www.mathworks.com/help/)
 
 
 % 2. What does the command 'clear all' do?
