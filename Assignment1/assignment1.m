@@ -26,7 +26,7 @@ url='https://www.mathworks.com';web('https://www.mathworks.com/help/')
 
 % 2. What does the command 'clear all' do?
 %
-% Answer: 
+% Answer: Clear all clears all variables
 %
 
 
@@ -37,7 +37,7 @@ url='https://www.mathworks.com';web('https://www.mathworks.com/help/')
 
 
 % 4. What command would you type to see a list of all installed toolboxes?
-
+ver
 
 
 % 5. What command would return a list of all of the available functions in 
@@ -52,7 +52,7 @@ x = linspace(-2*pi,2*pi);
 y = sin(x);
 
 figure
-        %<- command goes here
+        plot(x,y)
 
         
 
@@ -67,7 +67,9 @@ figure
 % difference between them?
 
 %
-% Answer: 
+% Answer: There are "for" statements and "while" statements. For statements
+% loop a specific amount of times and keep track of each iteration,while
+% "while" statements loop as long as a condition remains true.
 % 
 
 
