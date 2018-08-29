@@ -42,7 +42,7 @@ ver
 
 % 5. What command would return a list of all of the available functions in 
 % the image processing toolbox? 
-
+help images
 
 
 % 6. On the line below figure, write a command to draw a graph of 
