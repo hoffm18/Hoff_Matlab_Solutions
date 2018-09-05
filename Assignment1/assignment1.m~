@@ -33,7 +33,7 @@ helpURL='https://www.mathworks.com';web('https://www.mathworks.com/help/')
 % 3. What function would you use to take the average of the following
 % numbers [1 7 21 32 67 32453]? Store your answer in a variable called
 % averageAnswer.
-%averageAnswer = mean(A)
+
 
 
 % 4. What command would you type to see a list of all installed toolboxes?
@@ -77,8 +77,7 @@ figure
 % an answer. 
 
 %
-% Answer: NaN stands for the expression "not a number" . An example would
-% be 0*Inf.
+% Answer: 
 %
 
 
@@ -94,7 +93,6 @@ S = sum(A)
 % 11. I used to love playing the game minesweeper. Is there a way that I
 % could play a similar game on Matlab? Write the command that would launch
 % the game if so. 
-xpbombs
 
 
 
@@ -103,20 +101,7 @@ xpbombs
 % is commented out).
 
 %
-% Answer: The bald and not excessively bald and not excessively smart hamster obeyed a terrified and not excessively terrified hamster.
-%why
-%To fool the tall good and smart system manager.
-%why
-%The rich rich and tall and good system manager suggested it.
-%why
-%He wanted it that way.
-%why
-%The programmer suggested it.
-%why
-%Mara suggested it.
-%why
-%To please a very terrified and smart and tall engineer.
-
+% Answer: 
 %
 
 
