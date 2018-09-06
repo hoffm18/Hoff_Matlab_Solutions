@@ -26,14 +26,16 @@ helpURL='https://www.mathworks.com';web('https://www.mathworks.com/help/')
 
 % 2. What does the command 'clear all' do?
 %
-% Answer: Clear all clears all variables or resets matlab
+% Answer: Clear all clears your workspace, closes all firgures, and clears
+% the command window.
 %
 
 
 % 3. What function would you use to take the average of the following
 % numbers [1 7 21 32 67 32453]? Store your answer in a variable called
 % averageAnswer.
-%averageAnswer = mean(A)
+A=[1 7 21 32 67 32453]
+averageAnswer = mean(A)
 
 
 % 4. What command would you type to see a list of all installed toolboxes?
@@ -59,9 +61,9 @@ figure
 % 7. Find a function that performs a statistical test you've seen used
 % in a journal article (there are many possible answers to this). 
 
-%
-% Answer: 
-%
+
+% Answer: An example would be a Kolmogrov-Smirnov test (kstest).
+
 
 % 8. What are the 2 major types of loops that MATLAB supports? What is the
 % difference between them?
@@ -89,6 +91,9 @@ figure
 
 A = [1 2 3 2 1 NaN 1 2 3 NaN];
 S = sum(A)
+A=[1 2 3 3 2 1 NaN 1 2 3 NaN]
+S=nansum(A)
+
 
 
 % 11. I used to love playing the game minesweeper. Is there a way that I
@@ -132,6 +137,7 @@ xpbombs
 %%% Enter the code for your program below this line
 
 disp('Hello World')
+
 
 
 
