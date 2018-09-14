@@ -160,8 +160,39 @@ B = max(mat)
 
 v = 4*pi/3*(5^2-2^2)
 
-
 %4.)
+mat = input('Enter a matrix: ')
+
+%6.)
+realnum = 12345.6789
+fprintf('The number is %f\n', realnum)
+fprintf('The number is %10.4f\n', realnum)
+fprintf('The number is %10.2f\n', realnum)
+fprintf('The number is %6.4f\n', realnum)
+fprintf('The number is %2.4f\n', realnum)
+
+
+%8.)
+%flowrate
+%Enter the flow in m^3/s: 15.2
+%A flow rate of 15.2 meters per sec 
+%is equivalent to 542.856 feet per sec
+cubicMpersec = input ('enter the flow in m^3/s :');
+cubicFpersec = cubicMpersec / .028;
+fprintf('A flow rate of %.3f meters per sec\n', ...
+    cubicMpersec)
+fprintf('is equivalent to %.3 feet per second\n', ... 
+    cubicFpersec)
+
+%13.)
+
+ l = input('Input the l value: ');
+ y = input('Input the y value: ');
+ z = input('Input the z value: ');
+ p = [l y z] / sqrt(l^2 + y^2 + z^2)
+
+
+
 
 
 

@@ -143,6 +143,32 @@ mat = randi([-10,10], 1, 5)
 mat= mat-3
 sum(mat(:) >= 0)
 y = abs(mat)
+z = max(mat)
+
+%31.)
+mat = [1:5; 6:10; 11:15]
+B = max(mat)
+
+%%Chapter 3 Exercises
+
+%1.)
+%I assigned the ro variable to 5
+%I assigned the ri variable to 2
+%I then subsituted the variables for the numbers and used the equation
+%listed below to solve for the answer.
+%the volume is v=87.96
+
+v = 4*pi/3*(5^2-2^2)
+
+
+%4.)
+%flowrate
+%A flow rate of 15.2 meters per sec is equivalent to 542.856 feet per sec
+cubicMpersec = input ('enter the flow in m^3/s :');
+cubicFpersec = cubicMpersec / .028;
+fprintf('A flow rate of %.3f meters per sec\n')
+fprintf('is equivalent to %.3f
+
 
 
 
